@@ -27,7 +27,7 @@
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url("images/ปกเว็บ1.png"); 
+    background-image: url("ปกเว็บ1.png"); 
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
     content: "";
     position: absolute;
     top: -10px; left: -10px; right: -10px; bottom: -10px;
-    background-image: url("images/ปกเว็บ.png"); 
+    background-image: url("ปกเว็บ.png"); 
     background-size: cover; 
     background-position: center;
     filter: blur(20px) brightness(0.6); 
@@ -79,4 +79,5 @@
 /* Effect เมื่อกดปุ่ม */
 .main-btn:active {
     transform: scale(0.95); 
+
 }
