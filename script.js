@@ -102,7 +102,7 @@ const menuDatabase = [
       zh: "卡邦尼意大利面",
     },
     price: 79,
-    img: "images/1.jpg",
+    img: "1.jpg",
   },
   {
     name: {
@@ -111,7 +111,7 @@ const menuDatabase = [
       zh: "泰式罗勒辣酱猪肉意大利面",
     },
     price: 69,
-    img: "images/2.jpg",
+    img: "2.jpg",
   },
   {
     name: {
@@ -120,7 +120,7 @@ const menuDatabase = [
       zh: "番茄酱猪肉末意大利面",
     },
     price: 69,
-    img: "images/3.jpg",
+    img: "3.jpg",
   },
   {
     name: {
@@ -129,7 +129,7 @@ const menuDatabase = [
       zh: "番茄酱鸡肉末意大利面",
     },
     price: 69,
-    img: "images/3.jpg",
+    img: "3.jpg",
   },
   {
     name: {
@@ -138,37 +138,37 @@ const menuDatabase = [
       zh: "芝士焗菠菜",
     },
     price: 59,
-    img: "images/4.jpg",
+    img: "4.jpg",
   },
   {
     name: { th: "หมูแดดเดียว", en: "Sun-Dried Pork", zh: "泰式风干猪肉" },
     price: 50,
-    img: "images/5.jpg",
+    img: "5.jpg",
   },
   {
     name: { th: "ซุปเห็ด", en: "Mushroom Soup", zh: "奶油蘑菇汤" },
     price: 49,
-    img: "images/6.jpg",
+    img: "6.jpg",
   },
   {
     name: { th: "ซุปผักโขม", en: "Spinach Soup", zh: "奶油菠菜汤" },
     price: 49,
-    img: "images/7.jpg",
+    img: "7.jpg",
   },
   {
     name: { th: "นักเก็ต", en: "Chicken Nuggets", zh: "炸鸡块" },
     price: 45,
-    img: "images/8.jpg",
+    img: "8.jpg",
   },
   {
     name: { th: "เฟรนช์ฟรายส์", en: "French Fries", zh: "炸薯条" },
     price: 39,
-    img: "images/9.jpg",
+    img: "9.jpg",
   },
   {
     name: { th: "ไก่ป๊อป", en: "Popcorn Chicken", zh: "爆米花鸡" },
     price: 45,
-    img: "images/10.jpg",
+    img: "10.jpg",
   },
   {
     name: {
@@ -177,12 +177,12 @@ const menuDatabase = [
       zh: "香辣爆米花鸡",
     },
     price: 45,
-    img: "images/10.jpg",
+    img: "10.jpg",
   },
   {
     name: { th: "ฟิชแอนด์ชิปส์", en: "Fish & Chips", zh: "炸鱼薯条" },
     price: 69,
-    img: "images/11.jpg",
+    img: "11.jpg",
   },
   {
     name: {
@@ -191,7 +191,7 @@ const menuDatabase = [
       zh: "烤鸡排盖饭",
     },
     price: 59,
-    img: "images/13.jpg",
+    img: "13.jpg",
     hasSauce: true,
   },
   {
@@ -201,7 +201,7 @@ const menuDatabase = [
       zh: "烤猪排盖饭",
     },
     price: 99,
-    img: "images/14.jpg",
+    img: "14.jpg",
     hasSauce: true,
   },
   {
@@ -211,7 +211,7 @@ const menuDatabase = [
       zh: "炸鸡排盖饭",
     },
     price: 59,
-    img: "images/15.jpg",
+    img: "15.jpg",
   },
   {
     name: {
@@ -220,7 +220,7 @@ const menuDatabase = [
       zh: "猪颈肉盖饭",
     },
     price: 169,
-    img: "images/16.jpg",
+    img: "16.jpg",
     hasSauce: true,
   },
   {
@@ -230,7 +230,7 @@ const menuDatabase = [
       zh: "优质牛排盖饭",
     },
     price: 119,
-    img: "images/17.jpg",
+    img: "17.jpg",
     hasSauce: true,
   },
   {
@@ -240,7 +240,7 @@ const menuDatabase = [
       zh: "三文鱼排盖饭",
     },
     price: 189,
-    img: "images/18.jpg",
+    img: "18.jpg",
   },
   {
     name: {
@@ -249,7 +249,7 @@ const menuDatabase = [
       zh: "炸鱼排盖饭",
     },
     price: 59,
-    img: "images/19.jpg",
+    img: "19.jpg",
   },
   {
     name: {
@@ -258,7 +258,7 @@ const menuDatabase = [
       zh: "日式烤鲭鱼盖饭",
     },
     price: 89,
-    img: "images/20.jpg",
+    img: "20.jpg",
   },
   {
     name: {
@@ -267,7 +267,7 @@ const menuDatabase = [
       zh: "猪肉饼盖饭",
     },
     price: 79,
-    img: "images/21.jpg",
+    img: "21.jpg",
     hasSauce: true,
   },
   {
@@ -277,7 +277,7 @@ const menuDatabase = [
       zh: "牛肉饼盖饭",
     },
     price: 99,
-    img: "images/22.jpg",
+    img: "22.jpg",
     hasSauce: true,
   },
   {
@@ -287,7 +287,7 @@ const menuDatabase = [
       zh: "泰南香辣猪肉炒饭",
     },
     price: 49,
-    img: "images/23.jpg",
+    img: "23.jpg",
   },
   {
     name: {
@@ -296,7 +296,7 @@ const menuDatabase = [
       zh: "炸鱼排沙拉",
     },
     price: 69,
-    img: "images/24.jpg",
+    img: "24.jpg",
   },
   {
     name: {
@@ -305,7 +305,7 @@ const menuDatabase = [
       zh: "烤鸡胸肉排沙拉",
     },
     price: 69,
-    img: "images/25.jpg",
+    img: "25.jpg",
   },
   {
     name: {
@@ -314,12 +314,12 @@ const menuDatabase = [
       zh: "烤猪排沙拉",
     },
     price: 99,
-    img: "images/26.jpg",
+    img: "26.jpg",
   },
   {
     name: { th: "สลัดผัก", en: "Fresh Garden Salad", zh: "蔬菜沙拉" },
     price: 49,
-    img: "images/27.jpg",
+    img: "27.jpg",
   },
   {
     name: {
@@ -328,7 +328,7 @@ const menuDatabase = [
       zh: "优质牛排",
     },
     price: 109,
-    img: "images/28.jpg",
+    img: "28.jpg",
     hasSauce: true,
   },
   {
@@ -338,19 +338,19 @@ const menuDatabase = [
       zh: "肉眼牛排",
     },
     price: 119,
-    img: "images/29.jpg",
+    img: "29.jpg",
     hasSauce: true,
   },
   {
     name: { th: "ที-โบน สเต็กเนื้อ", en: "T-Bone Beef Steak", zh: "T骨牛排" },
     price: 199,
-    img: "images/30.jpg",
+    img: "30.jpg",
     hasSauce: true,
   },
   {
     name: { th: "สเต็กปลาซาบะ", en: "Japanese Saba Steak", zh: "鲭鱼排" },
     price: 79,
-    img: "images/31.jpg",
+    img: "31.jpg",
   },
   {
     name: {
@@ -359,7 +359,7 @@ const menuDatabase = [
       zh: "香脆炸鱼排",
     },
     price: 109,
-    img: "images/32.jpg",
+    img: "32.jpg",
     hasSauce: true,
   },
   {
@@ -369,67 +369,67 @@ const menuDatabase = [
       zh: "烤鱼排配泰式海鲜蘸酱",
     },
     price: 99,
-    img: "images/33.jpg",
+    img: "33.jpg",
   },
   {
     name: { th: "สเต็กปลาแซลมอน", en: "Salmon Steak", zh: "三文鱼排" },
     price: 179,
-    img: "images/34.jpg",
+    img: "34.jpg",
     hasSauce: true,
   },
   {
     name: { th: "พอร์คชอพ", en: "Pork chop", zh: "猪排" },
     price: 109,
-    img: "images/35.jpg",
+    img: "35.jpg",
     hasSauce: true,
   },
   {
     name: { th: "พอร์คชอพซอสสไปซี่", en: "Spicy Pork Chop", zh: "香辣猪排" },
     price: 109,
-    img: "images/36.jpg",
+    img: "36.jpg",
   },
   {
     name: { th: "พอร์คชอพซอสบาร์บีคิว", en: "BBQ Pork Chop", zh: "烧烤猪排" },
     price: 109,
-    img: "images/36.jpg",
+    img: "36.jpg",
   },
   {
     name: { th: "ซี่โคครงบาร์บีคิว", en: "BBQ Ribs", zh: "烧烤排骨" },
     price: 169,
-    img: "images/37.jpg",
+    img: "37.jpg",
   },
   {
     name: { th: "สเต็กหมูบด", en: "Minced Pork Steak", zh: "猪肉汉堡排" },
     price: 69,
-    img: "images/38.jpg",
+    img: "38.jpg",
     hasSauce: true,
   },
   {
     name: { th: "สเต็กเนื้อบด", en: "Minced Beef Steak", zh: "牛肉汉堡排" },
     price: 89,
-    img: "images/39.jpg",
+    img: "39.jpg",
     hasSauce: true,
   },
   {
     name: { th: "เบอร์เกอร์หมู", en: "Pork Burger", zh: "猪肉汉堡" },
     price: 69,
-    img: "images/40.jpg",
+    img: "40.jpg",
   },
   {
     name: { th: "เบอร์เกอร์เนื้อ", en: "Beef Burger", zh: "牛肉汉堡" },
     price: 89,
-    img: "images/41.jpg",
+    img: "41.jpg",
   },
   {
     name: { th: "สเต็กไก่", en: "Chicken Steak", zh: "鸡排" },
     price: 49,
-    img: "images/42.jpg",
+    img: "42.jpg",
     hasSauce: true,
   },
   {
     name: { th: "สะโพกไก่สไปซี่", en: "Spicy Chicken Thigh", zh: "香辣鸡腿" },
     price: 89,
-    img: "images/43.jpg",
+    img: "43.jpg",
   },
   {
     name: {
@@ -438,7 +438,7 @@ const menuDatabase = [
       zh: "烧烤酱鸡排",
     },
     price: 59,
-    img: "images/44.jpg",
+    img: "44.jpg",
   },
   {
     name: {
@@ -447,12 +447,12 @@ const menuDatabase = [
       zh: "香辣鸡排",
     },
     price: 59,
-    img: "images/44.jpg",
+    img: "44.jpg",
   },
   {
     name: { th: "สเต็กหมู", en: "Pork Steak", zh: "猪排" },
     price: 89,
-    img: "images/45.jpg",
+    img: "45.jpg",
     hasSauce: true,
   },
   {
@@ -462,7 +462,7 @@ const menuDatabase = [
       zh: "烧烤酱猪排",
     },
     price: 89,
-    img: "images/46.jpg",
+    img: "46.jpg",
   },
   {
     name: {
@@ -471,17 +471,17 @@ const menuDatabase = [
       zh: "香辣猪排",
     },
     price: 89,
-    img: "images/46.jpg",
+    img: "46.jpg",
   },
   {
     name: { th: "สเต็กหมูสไปซี่", en: "Spicy Pork Steak", zh: "香辣酱猪排" },
     price: 109,
-    img: "images/47.jpg",
+    img: "47.jpg",
   },
   {
     name: { th: "สเต็กสันคอหมู", en: "Pork Blade Steak", zh: "猪颈肉排" },
     price: 169,
-    img: "images/48.jpg",
+    img: "48.jpg",
     hasSauce: true,
   },
   {
@@ -491,7 +491,7 @@ const menuDatabase = [
       zh: "烧烤酱猪颈肉排",
     },
     price: 169,
-    img: "images/49.jpg",
+    img: "49.jpg",
   },
   {
     name: {
@@ -500,7 +500,7 @@ const menuDatabase = [
       zh: "香辣猪颈肉排",
     },
     price: 169,
-    img: "images/49.jpg",
+    img: "49.jpg",
   },
   {
     name: {
@@ -509,7 +509,7 @@ const menuDatabase = [
       zh: "鸡 + 鱼 + 猪肉",
     },
     price: 219,
-    img: "images/50.jpg",
+    img: "50.jpg",
     hasSauce: true,
   },
   {
@@ -519,7 +519,7 @@ const menuDatabase = [
       zh: "鸡 + 鱼 + 优质牛肉",
     },
     price: 229,
-    img: "images/51.jpg",
+    img: "51.jpg",
     hasSauce: true,
   },
   {
@@ -529,13 +529,13 @@ const menuDatabase = [
       zh: "鸡 + 优质牛肉 + 猪排 + 鱼",
     },
     price: 299,
-    img: "images/52.jpg",
+    img: "52.jpg",
     hasSauce: true,
   },
   {
     name: { th: "สันคอ + ปลา", en: "Pork Blade + Fish", zh: "猪颈肉 + 鱼" },
     price: 249,
-    img: "images/53.jpg",
+    img: "53.jpg",
     hasSauce: true,
   },
   {
@@ -545,7 +545,7 @@ const menuDatabase = [
       zh: "猪排 + 优质牛肉",
     },
     price: 189,
-    img: "images/54.jpg",
+    img: "54.jpg",
     hasSauce: true,
   },
   {
@@ -555,7 +555,7 @@ const menuDatabase = [
       zh: "猪排 + T骨牛排",
     },
     price: 289,
-    img: "images/55.jpg",
+    img: "55.jpg",
     hasSauce: true,
   },
   {
@@ -565,7 +565,7 @@ const menuDatabase = [
       zh: "猪肉 + 猪排 + 猪颈肉",
     },
     price: 339,
-    img: "images/56.jpg",
+    img: "56.jpg",
     hasSauce: true,
   },
   {
@@ -575,7 +575,7 @@ const menuDatabase = [
       zh: "三文鱼 + T骨牛排",
     },
     price: 339,
-    img: "images/57.jpg",
+    img: "57.jpg",
     hasSauce: true,
   },
   {
@@ -585,7 +585,7 @@ const menuDatabase = [
       zh: "猪排 + T骨牛排 + 三文鱼",
     },
     price: 419,
-    img: "images/58.jpg",
+    img: "58.jpg",
     hasSauce: true,
   },
   {
@@ -595,7 +595,7 @@ const menuDatabase = [
       zh: "优质牛肉 + 肋眼牛排 + T骨牛排",
     },
     price: 389,
-    img: "images/59.jpg",
+    img: "59.jpg",
     hasSauce: true,
   },
   {
@@ -605,7 +605,7 @@ const menuDatabase = [
       zh: "鸡 + 猪肉 + 优质牛肉 + 鱼 + 三文鱼",
     },
     price: 459,
-    img: "images/60.jpg",
+    img: "60.jpg",
     hasSauce: true,
   },
   {
@@ -615,7 +615,7 @@ const menuDatabase = [
       zh: "三文鱼 + 猪排 + 肋眼牛排",
     },
     price: 349,
-    img: "images/61.jpg",
+    img: "61.jpg",
     hasSauce: true,
   },
   {
@@ -625,7 +625,7 @@ const menuDatabase = [
       zh: "鱼 + 鸡肉 + 猪排 + 猪颈肉 + 肋眼牛排 + T骨牛排",
     },
     price: 599,
-    img: "images/62.jpg",
+    img: "62.jpg",
     hasSauce: true,
   },
 ];
