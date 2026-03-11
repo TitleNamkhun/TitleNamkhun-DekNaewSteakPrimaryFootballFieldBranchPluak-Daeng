@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>สเต็กเด็กแนว สาขาสนามฟุตบอลไพรมารี่ ปลวกแดง</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <span class="brand-name"
+          >สเต็กเด็กแนว สาขาสนามฟุตบอลไพรมารี่ ปลวกแดง</span
+        >
+        <span class="table-badge"
+          ><span id="tableLabel">โต๊ะ</span>
+          <span id="tableNumberDisplay">-</span></span
+        >
+      </div>
+      <div class="nav-right">
+        <select id="langSelector" onchange="setLanguage(this.value)">
+          <option value="th">🇹🇭 TH</option>
+          <option value="en">🇬🇧 EN</option>
+          <option value="zh">🇨🇳 CN</option>
+        </select>
+      </div>
+    </nav>
+
+    <main class="menu-container">
+      <div id="menuGrid" class="menu-grid"></div>
+      <div style="height: 100px"></div>
+    </main>
+
+    <div
+      id="bottomBar"
+      class="bottom-bar"
+      onclick="openCart()"
+      style="display: none"
+    >
+      <div class="cart-summary">
+        <div class="cart-icon-wrapper">
+          🛒 <span id="cartCountBadge">0</span>
+        </div>
+        <div class="cart-text-info">
+          <span class="cart-label" id="bottomBarLabel">ดูตะกร้า</span>
+          <span class="cart-total-price"><span id="barTotal">0</span> ฿</span>
+        </div>
+      </div>
+      <div class="checkout-arrow">➔</div>
+    </div>
+
+    <div id="sauceModal" class="bottom-sheet-overlay">
+      <div class="bottom-sheet">
+        <div class="sheet-header">
+          <h3 id="sauceModalTitle">เลือกซอส</h3>
+          <button class="close-sheet" onclick="closeSauceModal()">✕</button>
+        </div>
+        <div class="sheet-body">
+          <div id="sauceOptionsContainer" class="sauce-grid"></div>
+        </div>
+        <div class="sheet-footer">
+          <button
+            id="sauceConfirmBtn"
+            class="action-btn primary-btn"
+            onclick="confirmSauce()"
+          >
+            ยืนยัน
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="cartModal" class="bottom-sheet-overlay">
+      <div class="bottom-sheet full-height">
+        <div class="sheet-header">
+          <h3 id="cartTitle">ตะกร้าสินค้า</h3>
+          <button class="close-sheet" onclick="closeCart()">✕</button>
+        </div>
+
+        <div class="sheet-body scrollable">
+          <div id="cartItemsList"></div>
+
+          <div class="note-section">
+            <label id="noteLabel">📝 โน้ตถึงครัว</label>
+            <textarea
+              id="orderNoteInput"
+              placeholder="ไม่ใส่ผัก, เผ็ดน้อย..."
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="sheet-footer">
+          <div class="summary-row">
+            <span id="totalLabel">รวมทั้งหมด</span>
+            <span class="grand-total"
+              ><span id="cartTotalDisplay">0</span> ฿</span
+            >
+          </div>
+          <button
+            id="confirmOrderBtn"
+            class="action-btn confirm-order-btn"
+            onclick="orderFood()"
+          >
+            ยืนยันการสั่งอาหาร
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="receiptModal" class="modal-overlay">
+      <div class="receipt-card">
+        <div class="receipt-header">
+          <div class="success-icon">✓</div>
+          <h2 id="receiptTitle">สั่งอาหารสำเร็จ!</h2>
+          <p>
+            <span id="receiptTableLabel">โต๊ะ</span>
+            <span id="receiptTable"></span>
+          </p>
+        </div>
+
+        <div class="receipt-items-scroll" id="receiptItems"></div>
+
+        <div class="receipt-footer">
+          <div class="receipt-total-row">
+            <span id="netTotalLabel">รวมสุทธิ</span>
+            <span><span id="finalTotal">0</span> ฿</span>
+          </div>
+
+          <div class="qr-section">
+            <p id="scanPayLabel">สแกนจ่าย (PromptPay)</p>
+            <div id="qrcode"></div>
+          </div>
+
+          <div class="receipt-actions">
+            <button
+              id="finishBtn"
+              class="action-btn secondary-btn"
+              onclick="finishOrder()"
+            >
+              กลับหน้าหลัก
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

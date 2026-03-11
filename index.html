@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>สเต็กเด็กแนว - ยินดีต้อนรับ</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style1.css" />
+
+    <script>
+      // เมื่อโหลดหน้าเว็บเสร็จสมบูรณ์
+      window.onload = function () {
+        // ดึงค่า Parameter จาก URL (เลขโต๊ะ) 
+        const urlParams = new URLSearchParams(window.location.search);
+        const tableParam = urlParams.get("table");
+
+        // ตรวจสอบว่ามีเลขโต๊ะส่งมาหรือไม่
+        if (tableParam) {
+          // บันทึกเลขโต๊ะลงใน LocalStorage เพื่อสามารถนำไปใช้ในหน้าอื่นได้
+          localStorage.setItem("selectedTable", tableParam);
+
+          // Update ลิงก์ปุ่ม "สั่งอาหาร" ให้แนบเลขโต๊ะไปด้วย
+          const orderBtn = document.querySelector(".main-btn");
+          if (orderBtn) {
+            orderBtn.href = "order.html?table=" + tableParam;
+          }
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="content">
+        <a href="order.html" class="main-btn">สั่งอาหาร</a>
+      </div>
+    </div>
+  </body>
+</html>

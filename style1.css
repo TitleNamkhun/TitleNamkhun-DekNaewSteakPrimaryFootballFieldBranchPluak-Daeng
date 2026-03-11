@@ -1,0 +1,82 @@
+/* การตั้งค่าเริ่มต้น */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    -webkit-tap-highlight-color: transparent; 
+}
+
+/* ส่วนแสดงผลหลักเต็มหน้าจอ */
+.hero {
+    position: relative;
+    height: 100vh;   
+    height: 100dvh;     
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    background-color: #000;
+}
+
+/* รูปภาพหลัก */
+/* แสดงรูปภาพตรงกลาง */
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url("images/ปกเว็บ1.png"); 
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1; 
+    pointer-events: none;
+}
+
+/* พื้นหลังเบลอ */
+/* นำรูปภาพมาขยายเต็มจอและทำเบลอ */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: -10px; left: -10px; right: -10px; bottom: -10px;
+    background-image: url("images/ปกเว็บ.png"); 
+    background-size: cover; 
+    background-position: center;
+    filter: blur(20px) brightness(0.6); 
+    z-index: 0; 
+    transform: scale(1.1); 
+}
+
+/* ส่วนแสดงปุ่ม */
+.content {
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+/* ปุ่มกด */
+.main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff5722, #f44336); 
+    color: white;
+    width: 280px;
+    padding: 16px 0;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.2s;
+}
+
+/* Effect เมื่อกดปุ่ม */
+.main-btn:active {
+    transform: scale(0.95); 
+}
